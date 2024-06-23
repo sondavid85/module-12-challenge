@@ -1,0 +1,21 @@
+{
+  "name": "module-12-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "setup-db": "node ./schema/setup-db.js",
+    "seed-db": "node ./schema/seed-db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.10.1"
+  }
+}
